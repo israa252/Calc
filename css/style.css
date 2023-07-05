@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(200, 200, 200, 0.759);
+}
+.wrapper{
+width: 350px;
+margin: 45px auto;
+border-radius: 10px;
+text-align: center;
+background:rgb(251, 251, 251);
+padding-bottom: 10px;
+box-shadow: 0 20px 35px rgba(0,0,0,0.1) ;
+
+}
+.output{
+    background: rgb(182, 94, 182);
+    background: linear-gradient(124deg,rgba(182, 94, 182,1) 26%,rgba(25, 182, 176,1) 100%);
+    border-top-right-radius: 10px;  
+    border-top-left-radius: 10px; 
+}
+input[type="text"]{
+    width: 90%;
+    font-size: 28px;
+    padding: 30px 5px;
+    margin: 15px 0 20px 0;
+    text-align: right;
+    color: #fff;
+    background: transparent;
+}
+input::placeholder{
+    color: #fff;
+}
+input[type="button"]{
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: none;
+}
+input[type="button"]:hover{
+    background-color:rgb(230, 222, 228);
+    transition: all 0.5s;
+}
+.func{
+  color:rgb(227, 50, 109);  
+}
+.clr{
+    color: rgb(9, 126, 38);
+}
